@@ -26,7 +26,7 @@ class DahabStore extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       getPages: [
         GetPage(name: '/', page:()=> SplashView()),
-        GetPage(name: '/login', page:()=> LoginView()),
+        GetPage(name: '/ogin', page:()=> LoginView()),
       ],
       theme: ThemeData(
         primarySwatch: Colors.purple, // Set the accent color
